@@ -79,6 +79,21 @@ final public class Artistas {
 	//Método para borrar artista
 	public static void borrarArtista(String nombre){
 		listaArtista.remove(buscarArtista(nombre));
+		
+	public static ArrayList<Artista> buscarArtista(int ano){
+		ArrayList<Artista> artistasPorAno = new ArrayList<Artista>();
+		if (artistas == null) {
+			System.out.println("No se han cargado artistas en la lista....");
+		}else {
+			for (int a = 0; a < artistas.size(); a++) {
+				artistas.get(a);
+				if (Artista.getAnoNacimiento() == ano) {
+					artistasPorAno.add(artistas.get(a));
+				}
+			}
+		}
+		return artistasPorAno;
+	}
 	}*/
 		
 	
