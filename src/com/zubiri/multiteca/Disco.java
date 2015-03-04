@@ -8,8 +8,8 @@ final public class Disco extends Obra{
 	private String discografia;
 	private int nCanciones = 0;
 	
-	public Disco(String titulo, Artista autor, int añoEdicion, String discografia, int nCanciones) {
-		super (titulo,autor,añoEdicion);
+	public Disco(String titulo, Artista autor, int aÃ±oEdicion, String discografia, int nCanciones) {
+		super (titulo,autor,aÃ±oEdicion);
 		this.discografia = discografia;
 		this.nCanciones = nCanciones;
 	}
@@ -82,7 +82,7 @@ final public class Disco extends Obra{
 	}
 	public String formattedObra() {
 		
-		String DiscoStr = 
+		String DiscoStr =  super.formattedObra() +
 				"DISCOGRAFIA:" + this.discografia + "\n" + 
 				"NUMERO DE CANCIONES:" + this.nCanciones  + "\n" ;
 				
