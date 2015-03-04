@@ -8,8 +8,8 @@ final public class Pelicula extends Obra{
 	private String productora;
 	private ArrayList<Artista> interpretes;
 	
-	public Pelicula(String titulo, Artista autor, int añoEdicion, String productora, ArrayList<Artista> interpretes) {
-		super (titulo,autor,añoEdicion);
+	public Pelicula(String titulo, Artista autor, int aÃ±oEdicion, String productora, ArrayList<Artista> interpretes) {
+		super (titulo,autor,aÃ±oEdicion);
 		this.productora = productora;
 		this.interpretes = interpretes;
 	}
@@ -75,7 +75,7 @@ final public class Pelicula extends Obra{
 	}
 	public String formattedObra() {
 		
-		String PeliculaStr = 
+		String PeliculaStr = super.formattedObra() +
 				"PRODUCTORA:" + this.productora + "\n" + 
 				"INTERPRETES:" + this.interpretes  + "\n" ;
 				
