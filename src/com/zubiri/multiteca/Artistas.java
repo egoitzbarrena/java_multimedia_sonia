@@ -70,6 +70,8 @@ final public class Artistas {
 				System.out.println(listaArtista.get(i).formattedArtista());
 			}
 		}
+		
+	
  
  
 }
