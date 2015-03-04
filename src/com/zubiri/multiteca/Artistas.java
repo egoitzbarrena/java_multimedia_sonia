@@ -72,6 +72,16 @@ final public class Artistas {
 		}
 		
 	
+	/*public static void anadirArtista(Artista artista){
+		listaArtista.add(artista);
+	}
+	
+	//Método para borrar artista
+	public static void borrarArtista(String nombre){
+		listaArtista.remove(buscarArtista(nombre));
+	}*/
+		
+	
  
  
 }
